@@ -1,0 +1,31 @@
+{
+    "name": "screenshttr",
+    "title": "Screenshttr",
+    "description": "Simple FOSS extension to screenshot all active tabs",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HamletDuFromage/screenshttr.git"
+    },
+    "scripts": {
+        "dev": "webpack --mode=development --watch",
+        "build": "webpack --mode=production",
+        "lint": "eslint --fix --ext .js src"
+    },
+    "license": "GPLv3",
+    "bugs": {
+        "url": "https://github.com/HamletDuFromage/screenshttr/issues"
+    },
+    "keywords": [
+        "screenshot"
+    ],
+    "homepage": "https://github.com/HamletDuFromage/screenshttr",
+    "devDependencies": {
+        "babel-loader": "^8.2.5",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "webextension-polyfill": "^0.10.0",
+        "webpack": "^5.88.1",
+        "webpack-cli": "^4.10.0"
+    }
+}
